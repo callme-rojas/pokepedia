@@ -111,6 +111,13 @@ class _HomeScreenState extends State<HomeScreen> {
           );
         },
       ),
+
+      floatingActionButton: FloatingActionButton(
+          onPressed: () {
+            Navigator.pushNamed(context, '/search'); // Redirige a la pantalla de búsqueda
+          },
+          child: Icon(Icons.search), // Icono de lupa
+      ),
     );
   }
 }

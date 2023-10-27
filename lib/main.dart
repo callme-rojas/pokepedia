@@ -4,7 +4,7 @@ import 'package:pokepedia1/resgister_screen.dart';
 import 'package:pokepedia1/home_screen.dart';
 import 'package:pokepedia1/login_screen.dart';
 import 'package:pokepedia1/splash_screen.dart';
-import 'package:pokepedia1/favorite_screen.dart';
+import 'package:pokepedia1/search_screen.dart';
 import 'firebase_options.dart';
 
 void main() async {
@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
         '/register': (context) => RegisterScreen(),
         '/home': (context) => HomeScreen(),  // Agrega esta línea
         '/splash':(context) => SplashScreen(),
-        '/favorite':(context) => FavoriteScreen(),
+        '/search':(context) => SearchScreen(),
       },
     );
   }
